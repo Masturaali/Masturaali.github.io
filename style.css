@@ -1,0 +1,56 @@
+body {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "sidebar section1 section2 section3"
+        "footer footer footer footer";
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    grid-template-rows: 50px 500px 50px;
+    grid-gap: 10px;
+    height: 300px;
+}
+
+#header {
+    grid-area: header;
+    background-color: rgb(64, 64, 64);
+    text-align: center;
+}
+
+.sideBar {
+    grid-area: sidebar;
+    background-color: rgb(106, 106, 106);
+}
+
+.section1 {
+    grid-area: section1;
+    background-color: gainsboro;
+    border-color: black;
+    height: 200px;
+    grid-gap: 20px;
+}
+
+.section2 {
+    grid-area: section2;
+    background-color: gainsboro;
+    border-color: black;
+    height: 200px;
+}
+
+.section3 {
+    grid-area: section3;
+    background-color: gainsboro;
+    border-color: black;
+    height: 200px;
+}
+
+.footer {
+    grid-area: footer;
+    height: 55;
+    background-color: rgb(64, 64, 64);
+    text-align: center;
+}
