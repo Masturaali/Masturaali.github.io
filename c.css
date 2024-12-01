@@ -1,0 +1,119 @@
+/* General styles for the page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-container {
+   display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.info {
+    font-size: 16px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: green;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+nav ul li a:visited {
+    color: red;
+}
+
+/* Table section styles */
+.table-section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+caption {
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid blue;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Image section styles */
+.image-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-section img {
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+/* Footer styles */
+footer {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: green;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: blue;
+}
